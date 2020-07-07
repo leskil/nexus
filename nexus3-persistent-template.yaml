@@ -18,7 +18,7 @@ objects:
     tags:
     - from:
         kind: DockerImage
-        name: registry.connect.redhat.com/sonatype/nexus-repository-manager:${NEXUS_VERSION}
+        name: registry.redhat.io/sonatype/nexus-repository-manager:${NEXUS_VERSION}
       name: ${NEXUS_VERSION}
 - apiVersion: v1
   kind: DeploymentConfig
